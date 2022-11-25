@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>layout</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="layout1.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hdrnav">
+                
+                    <h1>
+                        <span> RESPONSIVE</span> WEBDESIGN
+                    </h1>
+                     
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
+                            <li><a href=""><i class="fa-solid fa-id-card"></i>Contact</a></li>
+                            <li><a href=""><i class="fa-regular fa-address-card"></i>About Us</a></li>
+                            <li><a href=""><i class="fa-solid fa-square-rss"></i>Blog</a></li>
+                            <li><a href=""><i class="fa-brands fa-servicestack"></i>Services</a></li>
+                        </ul>
+                    
+                 
+            </div>
+                <div class="bacg">
+                    <img src="../../Code 15-09-2022/Practice always/Media/bacg image.jpg " alt="">
+                
+                </div>
+
+
+                <section class="mdlpara">
+                    <div id="ps">
+                        <a href=""><i class="fa-brands fa-html5"></i></a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sit molestias perferendis quos reiciendis, nisi error ratione qui voluptatem quasi necessitatibus aut veritatis iure sunt illum magni dicta impedit eveniet, vitae officiis saepe. Praesentium mollitia laudantium magnam culpa alias reiciendis, ea possimus asperiores soluta aut dignissimos totam modi quo. Dolores?</p>
+                    </div>
+                    <div id="pv">
+                        <a href=""><i class="fa-brands fa-css3-alt"></i></a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim provident at, aut rerum quasi dolorem blanditiis temporibus, pariatur reprehenderit hic quos corporis labore consequuntur dignissimos fugiat incidunt deserunt aperiam! Quas consequatur provident repellat exercitationem! Laudantium deserunt dolore adipisci eos iure et, doloremque nesciunt totam? Soluta, sed eos! Placeat, eaque nulla.</p>
+                    </div>
+                    <div id="pb">
+                        <a href=""><i class="fa-brands fa-node-js"></i></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi perspiciatis alias iste delectus. Deleniti accusamus magnam et ex amet exercitationem impedit voluptatibus ipsum! Doloremque sint aliquam reiciendis soluta delectus temporibus perspiciatis expedita odio explicabo illo, non eaque assumenda recusandae harum adipisci? Ipsam optio hic deserunt laborum, quisquam quos praesentium.</p>
+                    </div>
+
+                </section>
+                <section>
+                    <div class="bottompara">
+                        <div class="list">
+                            <ul>
+                                <li> <button> HTML Heading</button></li>
+                                <li> <button>HTML Lists</button> </li>
+                                <li><button>HTML Form</button> </li>
+                                <li><button>HTML Tables</button> </li>
+                            </ul>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quo consectetur voluptatum natus dignissimos rerum animi accusamus totam itaque blanditiis sunt, at, hic nulla! Illo, qui enim nihil quam aut repellendus quod consequuntur quidem quos deserunt! Nam provident veniam deleniti.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quo consectetur voluptatum natus dignissimos rerum animi accusamus totam itaque blanditiis sunt, at, hic nulla! Illo, qui enim nihil quam aut repellendus quod consequuntur quidem quos deserunt! Nam provident veniam deleniti.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quo consectetur voluptatum natus dignissimos rerum animi accusamus totam itaque blanditiis sunt, at, hic nulla! Illo, qui enim nihil quam aut repellendus quod consequuntur quidem quos deserunt! Nam provident veniam deleniti.</p>
+                            <div class="lasticon">
+                                <a href=""><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+
+                        </div> 
+ 
+                    </div>
+                </section>
+              
+        </div>
+        <script>
+            let icon = document.querySelector('.lasticon i');
+            window.onscroll = () => {
+                
+                if(window.scrollY>80){
+
+                icon.style.display = 'block';
+            }
+            else{
+                icon.style.display = 'none';
+            }
+            }
+            icon.onclick = (e) => {
+                e.preventDefault(); 
+                window.scrollTo(0,0);
+            }
+        </script>
+    </body>
+</html>
